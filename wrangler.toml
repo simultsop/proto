@@ -1,0 +1,20 @@
+name = "project-name"
+pages_build_output_dir = "./dist"
+
+[[env.preview.kv_namespaces]]
+binding = "kv"
+id = "your-kv-id-from-cloudflare"
+
+[[env.preview.d1_databases]]
+binding = "db"
+database_name = "your-d1-db-name-from-cloudflare"
+database_id = "your-d1-db-id-from-cloudflare"
+
+[[kv_namespaces]]
+binding = "kv"
+id = "your-kv-id-from-cloudflare"
+
+[[d1_databases]]
+binding = "db"
+database_name = "your-d1-db-name-from-cloudflare"
+database_id = "your-d1-db-id-from-cloudflare"
